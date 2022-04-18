@@ -1,0 +1,15 @@
+.delivery__img {
+    width: 8.6rem;
+    height: 8.6rem;
+    margin-bottom: 1.8rem;
+
+} 
+
+
+@media (max-width: 48em){
+.delivery__img {
+    width: 9.6rem;
+    height: 9.6rem;
+    margin-bottom: 3.8rem;
+}
+}

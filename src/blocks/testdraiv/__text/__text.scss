@@ -1,0 +1,26 @@
+.testdraiv__text {
+    position: absolute;
+    z-index: 2;
+    padding-left: 37.4rem;
+    // top: 1.5rem;
+    // left: -10rem;
+}
+
+@media (max-width: 48em){
+    .testdraiv__text {
+        // top: 0;
+        // bottom: 0;
+        // left: 0;
+        // right: 0;
+        // margin: auto;
+
+
+        position: absolute;    
+        top: -72rem;    
+        // left: -58%;   
+     transform: translate (-50%, -50%);
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+}

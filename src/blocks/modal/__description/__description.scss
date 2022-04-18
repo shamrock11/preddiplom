@@ -1,0 +1,12 @@
+.modal__description {
+    max-width:45rem;
+    @include font(400,2rem,100%);
+    margin: 0 auto;
+}
+
+@media (max-width:48em) {
+    .modal__description {
+        @include font(400,3rem,100%);
+    }
+
+}

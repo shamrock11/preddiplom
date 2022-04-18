@@ -1,0 +1,11 @@
+.footer__text__tel::before {
+        content:'+7 495 221-06-75';
+    }
+
+
+@media(max-width:48em) {
+        .footer__text__tel::before {
+            content:'+7 (812) 600-31-24';
+        }
+    
+}

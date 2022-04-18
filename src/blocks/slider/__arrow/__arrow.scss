@@ -1,0 +1,10 @@
+.slider__arrow {
+    
+    width: 5rem;
+    height: 5rem;
+    @include centered;
+    img {
+        width: 50%;
+        height: 34%;
+    }
+}

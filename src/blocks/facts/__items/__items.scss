@@ -1,0 +1,12 @@
+.facts__items {
+    padding-left:9.9rem;
+    padding-right:9.9rem;
+    font-family: 'Inter';
+}
+
+@media (max-width:48em) {
+.facts__items {
+    padding-left:0.9rem;
+    padding-right:0.9rem;
+    }
+}

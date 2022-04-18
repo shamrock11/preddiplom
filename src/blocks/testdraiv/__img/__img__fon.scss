@@ -1,0 +1,15 @@
+.testdraiv__img__fon {
+    position: relative;
+    z-index:1;
+    width: 100%;
+    align-items: center;
+    // justify-content: center;
+}
+
+@media (max-width: 48em){
+    .testdraiv__img__fon {
+        width: 218.8rem;
+        height:63.7rem;
+        left:-33rem;
+    }
+}

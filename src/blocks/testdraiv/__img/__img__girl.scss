@@ -1,0 +1,20 @@
+.testdraiv__img__girl {
+    position: relative;
+    width: 59.5rem;
+    height: 57.1rem;
+    left: -89rem;
+    top: -5rem;
+    z-index:3;
+}
+
+@media (max-width: 48em){
+    .testdraiv__img__girl {
+        width: 58.3rem;
+        // height: 29.1rem;
+        position: absolute;    
+        top: 7%;    
+        left:8%;   
+         transform: translate (-50%, -50%);
+        // left:0;
+    }
+}

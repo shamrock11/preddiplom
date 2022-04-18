@@ -1,0 +1,10 @@
+.footer__logo__text--color {
+    @include font(400, 1rem, 150%);
+}
+
+@media (max-width: 48em) {
+.footer__logo__text--color {
+    @include font(400, 2rem, 150%);
+    }
+}
+

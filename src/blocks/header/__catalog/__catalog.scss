@@ -1,0 +1,8 @@
+.header__catalog {
+  @include vercen;
+  margin-right: 4.2rem;
+}
+
+.header__catalog:hover {
+  text-decoration: underline; 
+}

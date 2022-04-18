@@ -1,0 +1,16 @@
+.footer__logo__text {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -0.1rem;
+    letter-spacing: 0.1em;
+  
+    &--color {
+      color: #959AAE;
+    }
+  }
+
+  @media (max-width: 48em) {
+    .footer__logo__text {
+      margin-top: -2rem;
+        }
+    }

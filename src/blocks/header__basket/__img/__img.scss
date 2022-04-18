@@ -1,0 +1,15 @@
+.header__basket__img  {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 48em) {
+.header__basket__img img {
+  width: 6rem;
+  height: 5rem;
+}
+.header__basket__img {
+  margin-right: -0.1rem;
+}
+}

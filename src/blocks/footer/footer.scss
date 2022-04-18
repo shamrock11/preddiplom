@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 25.4rem;
+}
+
+@media (max-width: 48em) {
+    .footer {
+      display: block;
+      margin:0 auto;
+      height: 93rem;
+    //   justify-content: space-between;
+    
+    }
+  }

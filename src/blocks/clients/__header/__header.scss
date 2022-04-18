@@ -1,0 +1,12 @@
+.clients__header {
+    @include font(900, 4.4rem, 120%);
+    text-align: center;
+    margin-bottom:1.5rem;
+}
+
+@media (max-width:48em) {
+    .clients__header {
+        @include font(900, 5.6rem, 120%);
+        margin-bottom:5.5rem;
+    }
+}

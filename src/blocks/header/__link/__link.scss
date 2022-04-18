@@ -1,0 +1,21 @@
+.header__link {
+  @include font(500, 1.6rem, 140%);
+  color: #2B3350;
+  margin-bottom: 1.3rem;
+
+
+}
+
+.header__link:hover {
+  text-decoration: underline; 
+}
+
+.header__link:not(:last-child) {
+  margin-right: 3rem;
+}
+
+// @media(max-width:48em) {
+//   .header__link:hover {
+//     text-decoration: none; 
+//   }
+// }

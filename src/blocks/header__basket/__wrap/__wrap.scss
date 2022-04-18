@@ -1,0 +1,12 @@
+.header__basket__wrap {
+  @include vercen;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 48em) {
+  .header__basket__wrap {
+  margin-top: -4.4rem;
+  margin-right: -1rem;
+  }
+  }

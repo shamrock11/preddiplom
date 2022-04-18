@@ -1,0 +1,20 @@
+.footer__contacts {
+
+    .footer__rights__mobile {
+        display: none;
+        
+    }
+}
+
+@media(max-width:48em) {
+    .footer__contacts {
+        .footer__rights__mobile {
+            display:flex;
+            flex-direction: column;
+            span {
+                @include font (500,2.6rem, 140%);
+                color: #959AAE;
+            }
+        }
+    }
+}

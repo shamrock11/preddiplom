@@ -1,0 +1,9 @@
+.title {
+    padding-bottom: 3.5rem;
+}
+
+@media (max-width: 48em){
+    .title {
+    padding-bottom: 0;
+}
+}

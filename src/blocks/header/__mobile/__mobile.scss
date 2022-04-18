@@ -1,0 +1,42 @@
+.header__mobile {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 8rem;
+    z-index: 100;
+    padding-top: 10.6rem;
+    padding-bottom: 4rem;
+    @include centered;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.04);
+    display: none;
+
+}
+
+@media (max-width: 48em) {
+    .header__mobile {
+        padding-top: 0;
+        top: 7rem;
+        overflow: auto;
+        bottom:0;
+        // height:100%;
+    } 
+    
+}
+
+@media screen and (orientation: landscape) {
+    .header__mobile {
+        padding-top: 23rem;
+        overflow: auto;
+        top: 9rem;
+        
+    } 
+}
+// @media (min-height: 48em) {
+//     .header__mobile {
+//         top: 0;
+//         overflow: auto;
+//         bottom:0;
+//     } 
+// }

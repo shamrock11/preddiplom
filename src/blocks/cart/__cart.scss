@@ -1,0 +1,16 @@
+.cart {
+    padding-top: 3.5rem;
+}
+
+@media (max-width: 48em){
+    .cart {
+        padding-top: 0;
+    }
+
+    .cart:nth-child(7) {
+    display: none;
+    } 
+    .cart:nth-child(6) {
+        display: none;
+        } 
+}

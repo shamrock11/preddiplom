@@ -1,0 +1,15 @@
+.header__logo__wrap {
+  width: 18.4rem;
+}
+
+@media (max-width: 48em) {
+  .header__logo__wrap {
+      width: 27.3rem;
+      position: absolute;
+      top:42%;
+      left:51%;
+      transform: translate(-50%, -50%);
+
+  }
+
+}

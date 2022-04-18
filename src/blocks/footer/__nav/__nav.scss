@@ -1,0 +1,14 @@
+.footer__nav {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-right:8rem;
+    
+    // order:2;
+}
+
+@media (max-width:48em) {
+    .footer__nav {
+        margin-bottom: 4rem;
+    }
+}

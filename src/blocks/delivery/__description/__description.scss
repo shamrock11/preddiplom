@@ -1,0 +1,17 @@
+.delivery__description {
+    @include font(600, 2.2rem,150%);
+    margin-bottom: 1.3rem;
+    // padding-left: 1rem;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 48em){
+    .delivery__description {
+        text-align: left;
+        margin-bottom: 1.2rem;
+        @include font (300, 2.8rem, 150%);
+        margin-left: 1.4rem;
+    }
+    }

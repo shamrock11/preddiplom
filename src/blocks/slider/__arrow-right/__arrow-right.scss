@@ -1,0 +1,14 @@
+.slider__arrow-right {
+    position: absolute;
+    right: 4.3rem;
+    top:47%;
+    transform: translate(0, -50%);
+    z-index: 100;
+}
+
+@media (max-width: 48em) {
+    .slider__arrow-right {
+        display: none;
+       
+    }
+  }

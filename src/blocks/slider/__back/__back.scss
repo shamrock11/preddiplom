@@ -1,0 +1,16 @@
+.slider {
+    &__back {
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: -1;
+        width: 100%;
+    }
+}
+
+
+// @media (max-width: 48em) {
+//     .slider__back {
+//       background-image: url('../img/slider/slider-1-mob.jpg');
+//     }
+//     }

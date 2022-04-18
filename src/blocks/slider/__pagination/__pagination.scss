@@ -1,0 +1,19 @@
+.slider__pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -7.3rem;
+    z-index: 100;
+    
+    .swiper-pagination-bullet{
+    width: .6rem;
+    height: .6rem;  
+    }
+    .swiper-pagination-bullet:not(:last-child){ 
+    margin-right: 1rem;   
+    }
+    
+   .swiper-pagination-bullet-active {
+    background-color: #2B3350;
+   }
+}

@@ -1,0 +1,48 @@
+.clients__img {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+
+    // img:first-child {
+    //     width:11.4rem;
+    //     height:5rem;
+    // }
+
+    // img:nth-child(2) {
+    //     width:14.5rem;
+    //     height:9.7rem;
+    // } 
+
+    // img:nth-child(3) {
+    //     width:17rem;
+    //     height:4.4rem;
+    // } 
+    // img:nth-child(4) {
+    //     width:15rem;
+    //     height:6.3rem;
+    // } 
+    // img:nth-child(5) {
+    //     width:16.9rem;
+    //     height:6.3rem;
+    // } 
+    // img:last-child {
+    //     width:11.2rem;
+    //     height:2.2rem;
+    // } 
+}
+
+@media (max-width: 48em) {
+    .clients__img {
+        width: 100%;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:2rem 2.2rem;
+        
+        // img {
+        //     align-items: center;
+        // }
+
+        
+    }
+}

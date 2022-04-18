@@ -1,0 +1,10 @@
+.footer__tel--style {
+    @include font(600,2rem,140%); 
+    color: #E7EAEF;
+}
+
+@media (max-width: 48em) {
+    .footer__tel--style {
+        @include font(400,3rem,140%); 
+    }
+}

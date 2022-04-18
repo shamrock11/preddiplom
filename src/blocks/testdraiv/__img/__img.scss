@@ -1,0 +1,13 @@
+.testdraiv__img {
+    // display: flex;
+    display: -webkit-box;
+    
+    // justify-content:center;
+}
+
+@media (max-width: 48em){
+    .testdraiv__img {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}

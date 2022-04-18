@@ -1,0 +1,16 @@
+.delivery__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+@media (max-width: 48em){
+.delivery__text {
+    align-items: flex-start;
+}
+}

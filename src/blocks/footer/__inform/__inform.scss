@@ -1,0 +1,29 @@
+.footer__inform {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7.7rem;
+    // order:-1;
+
+    .footer__rights {
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .footer__rights span {
+        @include font(500,1.4rem,140%);
+        color: #959AAE;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer__inform {
+      margin:0 auto;
+    margin-bottom: 3rem;
+
+        .footer__rights {
+            display:none;
+        }
+    }
+    
+  }

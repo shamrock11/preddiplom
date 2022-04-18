@@ -1,0 +1,11 @@
+.header__logo__text--color {
+  @include font(400, 1.2rem, 150%);
+
+
+}
+
+@media (max-width: 48em) {
+.header__logo__text--color {
+  @include font(400, 1.9rem, 150%);
+}
+}

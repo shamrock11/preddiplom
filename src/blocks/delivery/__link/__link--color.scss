@@ -1,0 +1,14 @@
+.delivery__link--color {
+    color: #959AAE;
+    font-family: 'Manrope';
+    @include font(400,1.5rem,150%);
+    border-bottom: 0.1rem dashed #e7eaef;
+}
+
+@media (max-width: 48em){
+    .delivery__link--color {
+    @include font(400,2.5rem,150%);
+    border-bottom: 0.1rem dashed #e7eaef;
+    
+}
+}

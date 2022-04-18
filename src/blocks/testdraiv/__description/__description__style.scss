@@ -1,0 +1,23 @@
+@media (min-width: 48em){
+.testdraiv__description__style {
+    @include font(400, 1.9rem, 160%);
+    max-width: 57.8rem;
+    color: #576077;
+    // padding-bottom: 3.1rem;
+}
+}
+
+@media (max-width: 48em){
+    .testdraiv__description__style {
+        // position: relative;
+        width: 57.6rem;
+        margin-left:3.2rem;
+        margin-right:3.2rem;
+        bottom:10rem;
+        @include font(400, 2.8rem, 160%);
+       
+        text-align: center;
+        padding: 0;
+        // margin-bottom:10rem;
+    }
+}

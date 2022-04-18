@@ -1,0 +1,21 @@
+.slider__header {
+    display: inline-block;
+    @include font (900,5.5rem, 120%);
+    letter-spacing: -0.04em;
+    margin-bottom: 2.1rem;
+
+
+    strong {
+        display: block;
+        font-weight: 900;
+    }
+}
+
+@media(max-width: 48em) {
+    .slider__header {
+            @include font(500,3.7rem,110%);
+            margin-bottom:1.4rem;
+        
+    
+    }
+}

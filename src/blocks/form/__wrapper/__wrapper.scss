@@ -1,0 +1,21 @@
+.form__wrapper {
+    position: relative;
+    width: 180rem;    
+    margin:0 auto;
+    padding-top:13.6rem;
+    padding-bottom: 10.4rem;
+    color: #FFFFFF;
+}
+
+@media(max-width:48em){
+    .form__wrapper {
+        // padding-top:13.4rem;
+        margin:0 auto;
+        display: block;
+        width: 100%;
+        height: 106rem;
+        text-align: center;
+       
+
+    }
+}

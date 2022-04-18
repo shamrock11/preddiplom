@@ -1,0 +1,45 @@
+.form__text {
+    
+    display: flex;
+    cursor: pointer;
+    @include font(300, 1.8rem, 122%);
+
+    
+    &:before {
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background: #576077;
+        border: .1rem solid #6F7487;
+        border-radius: .5rem;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+    span {
+        margin-left: 1.8rem;
+    }
+    span .br {
+        display: none;
+    }
+}
+
+@media(max-width:48em) {
+    .form__text {
+        span .br {
+            display: initial;
+        }
+    @include font(300, 2.4rem, 100%);
+    width:44.2rem;
+    text-align: left;
+
+        &:before {
+         
+            width: 4rem;
+            height: 4rem;
+            
+        }
+        
+    }
+}
+
