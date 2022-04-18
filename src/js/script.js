@@ -207,7 +207,7 @@ function init() {
 
 //iform send
 const form = document.querySelector('.form__elements');
-
+// const formbutton = document.querySelector('.form__button');
 const telSelector = document.querySelector('input[type="tel"]');
 const inputMask = new Inputmask('+7 (999) 999-99-99');
 inputMask.mask(telSelector);
@@ -276,7 +276,9 @@ validation
     });
 
     sendForm(user).then(data => {
-    console.log("Письмо успешно ушло!");
+    // console.log("Письмо успешно ушло!");
+    alert('Ваша заявка принята!')
+    // formbutton.classList.add('button-modal');
     });
 
     e.target.reset();   
