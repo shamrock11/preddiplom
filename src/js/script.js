@@ -277,7 +277,7 @@ validation
 
     sendForm(user).then(data => {
     // console.log("Письмо успешно ушло!");
-    alert('Ваша заявка принята!');
+        alert('Ваша заявка принята!');
     // const modals = document.querySelector('.modal');
     // modal.classList.add('active');
 
@@ -316,8 +316,8 @@ let accardion = document.querySelector('.facts__items');
                 }
                 else {
                     // addEventListener('click', () => {
-                    answer[i].classList.remove('active');
-                    tab[i].classList.remove('facts__item--active');
+                    // answer[i].classList.remove('active');
+                    // tab[i].classList.remove('facts__item--active');
                     plus[i].style.display = 'flex';
                     minus[i].style.display = 'none';
                 // });
