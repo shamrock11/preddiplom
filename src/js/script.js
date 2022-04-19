@@ -171,7 +171,7 @@ function init() {
     //modal 
     const modal = document.querySelector('.modal'),
     modalButtons = document.querySelectorAll('.button-modal');
-
+    
     modalButtons.forEach((item) => {
         item.addEventListener('click', () => {
             modal.classList.add('active');
@@ -207,7 +207,7 @@ function init() {
 
 //iform send
 const form = document.querySelector('.form__elements');
-// const formbutton = document.querySelector('.form__button');
+
 const telSelector = document.querySelector('input[type="tel"]');
 const inputMask = new Inputmask('+7 (999) 999-99-99');
 inputMask.mask(telSelector);
@@ -267,7 +267,7 @@ validation
 
 // form.addEventListener('submit', (e) => {
 //     e.preventDefault();
-
+   
     const dataForm = new FormData(e.target);
     const user = {};
 
@@ -277,8 +277,10 @@ validation
 
     sendForm(user).then(data => {
     // console.log("Письмо успешно ушло!");
-    alert('Ваша заявка принята!')
-    // formbutton.classList.add('button-modal');
+    alert('Ваша заявка принята!');
+    // const modals = document.querySelector('.modal');
+    // modal.classList.add('active');
+
     });
 
     e.target.reset();   
@@ -286,35 +288,68 @@ validation
     });
 });
 
-
 // $(document).ready(function() {
 //     $('.select__item').addClass('jqclass');
 //     $('.select__item').addClass('jqclass');
 
 // });
 
-//accordeon
-let accardeon = document.querySelector('.facts__items'),
-tab = document.querySelectorAll('.facts__item'),
-answer = document.querySelectorAll('.facts__answer'),
-plus = document.querySelectorAll('.facts__plus'),
-minus = document.querySelectorAll('.facts__minus');
+let accardion = document.querySelector('.facts__items');
+   let tab = document.querySelectorAll('.facts__item');
+   let answer = document.querySelectorAll('.facts__answer');
+   let plus = document.querySelectorAll('.facts__plus');
+   let minus = document.querySelectorAll('.facts__minus');
+   let open = document.querySelectorAll('.facts__open');
 
-accardeon.addEventListener('click', (e) => {
-    const target = e.target.closest('.facts__item');
-    if (target) {
-        tab.forEach((item, i) => {
+   accardion.addEventListener('click', (e) => {
+      const target = e.target.closest('.facts__item');
+      if (target) {
+         tab.forEach((item, i) => {
             if (item === target) {
-                answer[i].classList.add('active');
-                tab[i].classList.add('facts__item--active');
-                plus[i].style.display = 'none';
-                minus[i].style.display = 'flex';
-            } else {
-                answer[i].classList.remove('active');
-                tab[i].classList.remove('facts__item--active');
-                plus[i].style.display = 'flex';
-                minus[i].style.display = 'none';
+               answer[i].classList.toggle('active');
+               tab[i].classList.toggle('facts__item--active');
+
+                if (answer[i].closest('.active')) {
+                    // open[i].classList.toggle('active');
+                    plus[i].style.display = 'none';
+                    minus[i].style.display = 'flex';
+                }
+                else {
+                    // addEventListener('click', () => {
+                    answer[i].classList.remove('active');
+                    tab[i].classList.remove('facts__item--active');
+                    plus[i].style.display = 'flex';
+                    minus[i].style.display = 'none';
+                // });
+                }
             }
-        });
-    }
-});
+       
+         });
+      }
+   });
+//accordeon
+// let accardeon = document.querySelector('.facts__items'),
+// tab = document.querySelectorAll('.facts__item'),
+// answer = document.querySelectorAll('.facts__answer'),
+// plus = document.querySelectorAll('.facts__plus'),
+// minus = document.querySelectorAll('.facts__minus');
+
+// accardeon.addEventListener('click', (e) => {
+//     const target = e.target.closest('.facts__item');
+//     if (target) {
+//         tab.forEach((item, i) => {
+//             if (item === target) {
+//                 // addEventListener('click', () => {
+//                 answer[i].classList.add('active');
+//                 tab[i].classList.add('facts__item--active');
+//                 plus[i].style.display = 'none';
+//                 minus[i].style.display = 'flex';
+//             } else {
+//                 answer[i].classList.remove('active');
+//                 tab[i].classList.remove('facts__item--active');
+//                 plus[i].style.display = 'flex';
+//                 minus[i].style.display = 'none';
+//             }
+//         });
+//     }
+// });
