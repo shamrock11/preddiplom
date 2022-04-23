@@ -616,7 +616,7 @@
                         <label for="telephone" class="form__label">
                             <input type="tel" id="telephone" name="user-phone" class="form__input form__input--style" placeholder="Телефон для связи"> 
                         </label>
-                         <button type="submit" class="button form__button form__button--style">Заказать звонок</button>  
+                         <button type="submit" class="button form__button form__button--style button-modals">Заказать звонок</button>  
                     </div>
                     <div class="form__item" id="per">
                         <input type="checkbox" class="form__checkbox" id="check" >
@@ -633,10 +633,18 @@
     </section>
 
     <div class="map">
-        <div id="map-element" class="map__element">
-            <script src="https://api-maps.yandex.ru/2.1/?apikey=c191dbf4-9487-4822-af66-0f10d504cf23&lang=ru_RU"></script>
+        <div id="map-element" class="map__element"></div>
+            <script>
+        // \<script src="https://api-maps.yandex.ru/2.1/?apikey=c191dbf4-9487-4822-af66-0f10d504cf23&lang=ru_RU">
+            setTimeout(function(){
+                var elem = document.createElement('script');
+                elem.type = 'text/javascript';
+                elem.src = "https://api-maps.yandex.ru/2.1/?apikey=c191dbf4-9487-4822-af66-0f10d504cf23&lang=ru_RU";
+                document.getElementsByTagName('body')[0].appendChild(elem);
+            }, 5000);
+            </script>
 
-        </div>
+        
     </div>
 
     <footer class="footer footer--color">
