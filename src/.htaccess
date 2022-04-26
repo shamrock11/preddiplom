@@ -24,7 +24,7 @@ RewriteCond %{HTTPS} off
       </filesMatch>
 </IfModule>
 
-#сжимаем файлы
+
 <IfModule mod_gzip.c>
 	mod_gzip_on Yes
 	mod_gzip_dechunk Yes
