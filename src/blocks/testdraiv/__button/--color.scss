@@ -9,6 +9,8 @@
 @media (max-width: 48em) {
     .testdraiv__button--color {
         @include font (600,3.3rem,140%);
+        border-radius: 1.6rem;
+
         // position: relative;
     } 
   } 

@@ -1,7 +1,9 @@
 .form__button {
-    padding: 2.6rem 7.2rem 3rem;
+    padding: 2.6rem 7.4rem 3rem;
     @include font(600,1.8rem,140%);
     position: relative;
+    text-align: center;
+    white-space: nowrap;
     z-index:100;
     &:hover {
         text-decoration: underline; 

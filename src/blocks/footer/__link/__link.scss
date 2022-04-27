@@ -2,6 +2,10 @@
     @include font(500,1.7rem,140%)
 }
 
+.footer__link:hover {
+  text-decoration: underline; 
+}
+
 .footer__link__conf {
     margin-bottom:.6rem;
     @include font(500, 1.4rem, 140%);

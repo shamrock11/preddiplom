@@ -36,3 +36,15 @@
 
 }
 
+@media(max-width: 48em){
+
+    .just-validate-error-label {
+        margin-top: -2rem;
+        margin-left: 4rem;
+    }
+    .just-validate-error-label:nth-child(3) {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+}

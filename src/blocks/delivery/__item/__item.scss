@@ -69,19 +69,26 @@
 
 .delivery__item:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 4.5rem;
+    margin-bottom: 4.2rem;
 }
 
 .delivery__item:nth-child(3) {
     margin-left:0;
+    .delivery__img img {
+        margin-left: 0;
+    } 
 } 
 
 .delivery__item:nth-child(2) {
     margin-left:0;
+    .delivery__img img {
+        margin-left: 0;
+    } 
 } 
 
 .delivery__item:first-child {
     margin-left: 0;
+    
 } 
 
 }
