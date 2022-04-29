@@ -1,0 +1,11 @@
+.testdraiv__wrapper {
+	position:relative;
+	width:180rem;
+	margin:0 auto
+}
+
+@media (max-width:48em) {
+    .testdraiv__wrapper {
+		width:100%
+	}
+}

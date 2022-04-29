@@ -1,0 +1,9 @@
+.testdraiv__img-mobile {
+	display:none
+}
+
+@media (max-width:48em) {
+	.testdraiv__img-mobile {
+		display:block
+	}
+}

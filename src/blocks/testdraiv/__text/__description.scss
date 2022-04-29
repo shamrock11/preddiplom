@@ -1,0 +1,17 @@
+.testdraiv__description {
+	max-width:57rem;
+	font-weight:400;
+	font-size:1.9rem;
+	line-height:160%;
+	margin-bottom:3.1rem;
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis
+}
+
+@media (max-width:48em) {
+	.testdraiv__description	{
+		font-size:2.8rem;
+		margin-bottom:4rem
+	}
+}

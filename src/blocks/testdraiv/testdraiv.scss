@@ -1,3 +1,10 @@
 .testdraiv {
     margin-top: 10rem;
+padding-bottom:10.8rem
+}
+
+@media (max-width:48em) {
+    .testdraiv {
+		padding-bottom:10rem
+	}
 }

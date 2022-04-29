@@ -1,21 +1,44 @@
 .testdraiv__button {
-    padding: 2.6rem 4.95rem 3rem ;
-    margin-top:3rem;
-    text-align: center;
-    
+	padding:2.6rem 4.95rem 3rem;
+	font-weight:600;
+	font-size:1.8rem;
+	line-height:140%;
+	overflow:hidden;
+	white-space:nowrap;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	max-width:30rem
 }
-.testdraiv__button:hover {
-    text-decoration: underline; 
-  }
 
-@media (max-width: 48em) {
-    .testdraiv__button {
-        // padding: 1.85rem 3rem 2.25rem ;
-        padding: 3.2rem 5.6rem 4.5rem;
-        margin-top:5rem;
-        margin-left: -2rem;
-    }
-    .testdraiv__button:hover {
-        text-decoration: none; 
-      }
-  } 
+@media (max-width:48em) {
+	.testdraiv__button {
+		font-size:3.2rem;
+		padding:3.7rem 6rem 4.5rem;
+		position:relative;
+		max-width:50rem
+	}
+}
+
+// .testdraiv__button {
+//     padding: 2.6rem 4.95rem 3rem ;
+//     margin-top:3rem;
+//     text-align: center;
+    
+// }
+// .testdraiv__button:hover {
+//     text-decoration: underline; 
+//   }
+
+// @media (max-width: 48em) {
+//     .testdraiv__button {
+//         // padding: 1.85rem 3rem 2.25rem ;
+//         padding: 3.2rem 5.6rem 4.5rem;
+//         margin-top:5rem;
+//         margin-left: -2rem;
+//     }
+//     .testdraiv__button:hover {
+//         text-decoration: none; 
+//       }
+//   } 
+
+

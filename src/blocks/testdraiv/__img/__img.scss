@@ -1,13 +1,28 @@
-.testdraiv__img {
-    // display: flex;
-    display: -webkit-box;
+// .testdraiv__img {
+//     // display: flex;
+//     display: -webkit-box;
     
-    // justify-content:center;
+//     // justify-content:center;
+// }
+
+// @media (max-width: 48em){
+//     .testdraiv__img {
+//         overflow-x: hidden;
+//         overflow-y: hidden;
+//     }
+// }
+
+
+.testdraiv__img {
+	width:59.5rem;
+	height:57.1rem;
+	position:absolute;
+	left:52.8%;
+	bottom:3%
 }
 
-@media (max-width: 48em){
-    .testdraiv__img {
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
+@media (max-width:48em) {
+	.testdraiv__img {
+		display:none
+	}
 }
